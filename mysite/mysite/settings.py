@@ -103,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    'blog/static/',
+    '/var/www/static/',
 ]
 
 # Internationalization
@@ -126,5 +126,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    'blog/static/',
+    '/var/www/static/',
 ]
