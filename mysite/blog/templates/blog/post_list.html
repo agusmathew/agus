@@ -1,27 +1,130 @@
 {% load static %}
-<html>
+<!-- <html>
     <head>
-        <title>My First Django blog</title>
+        <title>Django Girls blog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
-        <div>
-            <h1><a href="http://www.lovethispic.com/image/277113/happy-birthday-to-you-wallpaper">Click here</a></h1>
+        <div class="page-header">
+            <h1><a href="/">My First Blog</a></h1>
         </div>
 
-        <div>
-            <p>HI Agile Mathew</p>
-            <h2><a href="https://www.facebook.com/public/Agile-Mathew">Log on to facebook</a></h2>
-            <p>Good Evening</p>
-        </div>
-
-        <div>
-            <p>OKeydokey</p>
-            <h2><a href="https://tutorial.djangogirls.org/en/whats_next">My second post</a></h2>
-            <p>AGUS MATHEW</p>
+        <div class="content container">
+            <div class="row">
+                <h1><a href="https://quintagroup.com/cms/python/odoo">Hello</a></h1>
+                <div class="img">
+                	<img src="{% static "images/example.jpg" %}" alt="My image"/> 
+                </div>
+				 
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
         </div>
     </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Saveio</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Happy Birthday Savyo Relavio</h1>
+  <p>Mr. India...........You ARe tHe BEeeEsT Da</p> 
+</div>
+  
+<div class="container">
+  <div class="row1" width="704" height="636">
+    <div class="col-sm-4">
+      <h3>ithu editing ano chetta??</h3>
+      <img src="{% static "images/example.jpg" %}" alt="My image" width="700" height="550"/> 
+    </div>
+    <div class="col-sm-4">
+      <h3></h3>
+      <!-- <img src="{% static "images/sa.jpg" %}" alt="My image" width="304" height="236"/> -->
+    </div>
+    <div class="col-sm-4">
+      <h3>                          </h3>        
+      <p>                                                                     </p>
+      <p>                                                                     </p>
+    </div>
+    <div class="col-sm-4">
+      <!-- <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> -->
+    </div>
+  </div>
+  <div class="row1">
+    <div class="col-sm-4">
+      <h3>ormakal</h3>
+      <img src="{% static "images/a.jpg" %}" alt="My image" width="304" height="304"/> 
+    </div>
+    <div class="col-sm-4">
+      <h3>     </h3>
+      <!-- <img src="{% static "images/d.jpg" %}" alt="My image" width="304" height="236"/> -->
+    </div>
+    <div class="col-sm-4">
+      <h3>             </h3>        
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> -->
+    </div>
+    <div class="col-sm-4">
+      <h3>               </h3>        
+      <p>                                                                     </p>
+      <p>                                                                     </p>
+    </div>
+  </div>
+  <div class="row1">
+    <div class="col-sm-4">
+      <h3>onnu mind cheyadey</h3>
+      <img src="{% static "images/w.jpg" %}" alt="My image" width="304" height="304"/> 
+    </div>
+    <div class="col-sm-4">
+      <h3>freakan!!!</h3>
+      <img src="{% static "images/f.jpg" %}" alt="My image" width="304" height="300"/>
+    </div>
+    <div class="col-sm-4">
+      <h3>Coding Brothers</h3>        
+      <img src="{% static "images/d.jpg" %}" alt="My image" width="300" height="300"/>
+    </div>
+    <div class="col-sm-4">
+      <h3>Enda theeta...</h3>        
+      <img src="{% static "images/o.jpg" %}" alt="My image" width="304" height="300"/>
+    </div>
+  </div>
+  <div class="row1">
+    <div class="col-sm-4">
+      <h3>Kalyanam mudakithu orma undo!!!?</h3>
+      <img src="{% static "images/g.jpg" %}" alt="My image" width="304" height="236"/> 
+    </div>
+    <div class="col-sm-4">
+      <h3>Tommy Singh</h3>
+      <img src="{% static "images/h.jpg" %}" alt="My image" width="304" height="236"/>
+    </div>
+    <div class="col-sm-4">
+      <h3>Udaipu</h3>        
+      <img src="{% static "images/u.jpg" %}" alt="My image" width="304" height="236"/>
+    </div>
+    <div class="row">
+	    <div class="col-sm-4">
+	      <h3>Rider Savyo</h3>        
+	      <img src="{% static "images/sa.jpg" %}" alt="My image" width="500" height="500"/>
+	    </div>
+	    <div class="col-sm-4">
+	      <h3>hAppY BDAY cHUNkE</h3>        
+	      <p>ithupole oru bday giftu ninaku adyam aytu avm, ithu ninnodula sneham kondonnum alla nale avalde birthday aanu, athinu oru practice .........</p>
+	    </div>
+	</div>
+  </div>
+</div>
+
+</body>
 </html>
